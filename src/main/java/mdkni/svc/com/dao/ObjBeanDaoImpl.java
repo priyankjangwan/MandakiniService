@@ -1,12 +1,12 @@
-package mdkni.svc.MandakiniService.dao;
+package mdkni.svc.com.dao;
 
-import mdkni.svc.MandakiniService.ObjBean.Item;
-import mdkni.svc.MandakiniService.ObjBean.Product;
-import mdkni.svc.MandakiniService.ObjBean.ProductCategory;
-import mdkni.svc.MandakiniService.dao.impl.ObjBeanDao;
-import mdkni.svc.MandakiniService.dao.rowMappers.RowMapperItem;
-import mdkni.svc.MandakiniService.dao.rowMappers.RowMapperProduct;
-import mdkni.svc.MandakiniService.dao.rowMappers.RowMapperProductCategory;
+import mdkni.svc.com.ObjBean.Item;
+import mdkni.svc.com.ObjBean.Product;
+import mdkni.svc.com.ObjBean.ProductCategory;
+import mdkni.svc.com.dao.impl.ObjBeanDao;
+import mdkni.svc.com.dao.rowMappers.RowMapperItem;
+import mdkni.svc.com.dao.rowMappers.RowMapperProduct;
+import mdkni.svc.com.dao.rowMappers.RowMapperProductCategory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;

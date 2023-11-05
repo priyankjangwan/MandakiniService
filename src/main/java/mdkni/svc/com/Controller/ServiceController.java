@@ -1,19 +1,18 @@
-package mdkni.svc.MandakiniService.Controller;
+package mdkni.svc.com.Controller;
 
-import mdkni.svc.MandakiniService.ObjBean.Item;
-import mdkni.svc.MandakiniService.ObjBean.Product;
-import mdkni.svc.MandakiniService.ObjBean.ProductCategory;
-import mdkni.svc.MandakiniService.ServiceInterface.impl.ExecutionService;
+import mdkni.svc.com.ObjBean.Item;
+import mdkni.svc.com.ObjBean.Product;
+import mdkni.svc.com.ObjBean.ProductCategory;
+import mdkni.svc.com.ServiceInterface.impl.ExecutionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import java.util.ArrayList;
+
 import java.util.List;
     
     @RestController
-    public class Mdkni_ServiceController {
+    public class ServiceController {
 
         @Autowired
         private ExecutionService executionService;
@@ -64,7 +63,6 @@ import java.util.List;
 
         @GetMapping("/allProductCategory")
         public List<ProductCategory> getAllProductCategory() {
-
             return executionService.getAllProductCategory();
         }
 

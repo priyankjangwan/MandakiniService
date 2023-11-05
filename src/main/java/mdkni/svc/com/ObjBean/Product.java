@@ -1,7 +1,7 @@
-package mdkni.svc.MandakiniService.ObjBean;
+package mdkni.svc.com.ObjBean;
 
 /**
- * Defines unique Product : TootPaste , Tea
+ * Defines unique Product : Tooth Paste , Tea
  * Example : Staples :  "Rice & Rice Products"
  */
 public class Product {

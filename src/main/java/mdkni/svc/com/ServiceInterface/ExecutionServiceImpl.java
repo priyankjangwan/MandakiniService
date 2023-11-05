@@ -1,10 +1,10 @@
-package mdkni.svc.MandakiniService.ServiceInterface;
+package mdkni.svc.com.ServiceInterface;
 
-import mdkni.svc.MandakiniService.ObjBean.Item;
-import mdkni.svc.MandakiniService.ObjBean.Product;
-import mdkni.svc.MandakiniService.ObjBean.ProductCategory;
-import mdkni.svc.MandakiniService.ServiceInterface.impl.ExecutionService;
-import mdkni.svc.MandakiniService.dao.ObjBeanDaoImpl;
+import mdkni.svc.com.ObjBean.Item;
+import mdkni.svc.com.ObjBean.Product;
+import mdkni.svc.com.ObjBean.ProductCategory;
+import mdkni.svc.com.ServiceInterface.impl.ExecutionService;
+import mdkni.svc.com.dao.ObjBeanDaoImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

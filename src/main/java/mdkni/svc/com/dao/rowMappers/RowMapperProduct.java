@@ -1,6 +1,6 @@
-package mdkni.svc.MandakiniService.dao.rowMappers;
+package mdkni.svc.com.dao.rowMappers;
 
-import mdkni.svc.MandakiniService.ObjBean.Product;
+import mdkni.svc.com.ObjBean.Product;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

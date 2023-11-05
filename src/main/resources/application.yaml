@@ -1,0 +1,20 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/DBUK13?useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: Mandakini
+    password: canon600d@
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      connection-timeout: 60000
+      maximum-pool-size: 5
+  data:
+    rest:
+      basePath: /mdkn/v1/srv
+logging:
+  level:
+    org.springframework: info
+    org.springframework.jdbc: DEBUG
+    root: ERROR
+  pattern:
+    console: '%-5level %logger{36} - %msg%n'

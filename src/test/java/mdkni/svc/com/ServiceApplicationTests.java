@@ -1,18 +1,15 @@
-package mdkni.svc.MandakiniService;
+package mdkni.svc.com;
 
-import mdkni.svc.MandakiniService.ObjBean.ProductCategory;
-import mdkni.svc.MandakiniService.ServiceInterface.impl.ExecutionService;
+import mdkni.svc.com.ObjBean.ProductCategory;
+import mdkni.svc.com.ServiceInterface.impl.ExecutionService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
 import java.util.List;
 
 @SpringBootTest
-class MandakiniServiceApplicationTests {
+class ServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,6 +1,6 @@
-package mdkni.svc.MandakiniService.ServiceInterface.impl;
+package mdkni.svc.com.ServiceInterface.impl;
 
-import mdkni.svc.MandakiniService.ObjBean.Item;
+import mdkni.svc.com.ObjBean.Item;
 
 import java.util.List;
 

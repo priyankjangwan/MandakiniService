@@ -1,4 +1,4 @@
-package mdkni.svc.MandakiniService.ObjBean;
+package mdkni.svc.com.ObjBean;
 
 /**
  * Defines individual items.
